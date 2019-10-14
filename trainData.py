@@ -21,7 +21,7 @@ testSetLen = 100
 
 
 def cal_value(root):
-    testdata = agg.gettestdata('D:/datacanopy/dataset.csv', ['x'], 10)
+    testdata = agg.gettestdata('./dataset.csv', ['x'], 10)
     transform.preorder2cal(root, ['x'], testdata)
     sumValue = 0
     for i in range(10):
