@@ -13,7 +13,7 @@ def create():
 	nor2 = np.random.normal(loc=10, scale=2, size=1000)
 
 	submission = pd.DataFrame({'x': nor1, 'y': nor2})
-	submission.to_csv('D:/datacanopy/dataset.csv', index=False)
+	submission.to_csv('./dataset.csv', index=False)
 
 
 create()
